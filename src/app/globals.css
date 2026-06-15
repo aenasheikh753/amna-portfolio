@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #2D4333;
+  --color-primary-hover: #1e2c22;
+  --color-secondary: #687D56;
+  --color-accent: #ECB4BA;
+  --color-background: #e9eedc;
+  --color-card: #fdfdf5;
+  --color-text: #1D2D20;
+  --color-text-light: #526356;
+  
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-playfair);
+}
+
+:root {
+  --background: #e9eedc;
+  --foreground: #1D2D20;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), sans-serif;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif), serif;
+  color: var(--color-primary);
+}
+
+/* Background image texture (Simulating watercolor background) */
+.bg-texture {
+  background-image: url('https://www.transparenttextures.com/patterns/cream-paper.png');
+}
