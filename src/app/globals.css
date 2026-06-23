@@ -15,12 +15,12 @@
 }
 
 :root {
-  --background: #e9eedc;
+  /* --background: #e9eedc; */
   --foreground: #1D2D20;
 }
 
 body {
-  background-color: var(--background);
+  /* background-color: var(--background); */
   color: var(--foreground);
   font-family: var(--font-sans), sans-serif;
   overflow-x: hidden;

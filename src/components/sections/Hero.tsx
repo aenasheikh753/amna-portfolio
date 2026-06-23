@@ -1,16 +1,17 @@
 import Image from "next/image";
+import { Header } from "@/components/layout/Header";
 import { Button } from "@/components/ui/Button";
 
 export function Hero() {
   return (
-    <section className="relative pt-32 pb-20 overflow-hidden min-h-[90vh] flex items-center">
+    <section className="relative pt-32 pb-20 overflow-hidden min-h-screen flex items-center">
       {/* Background Image */}
-      <div className="absolute inset-0 z-0">
+      <div className="fixed inset-0 -z-10">
         <Image
           src="/images/hero-bg.png"
           alt="Background"
           fill
-          className="object-cover opacity-60"
+          className="object-cover opacity-60 background-repeat-none"
           priority
         />
       </div>
@@ -18,7 +19,7 @@ export function Hero() {
       <div className="container mx-auto px-6 max-w-6xl relative z-10">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="max-w-xl">
-            <h1 className="text-5xl md:text-7xl font-bold font-serif leading-tight mb-6">
+            <h1 className="text-2xl md:text-4xl font-bold font-serif leading-tight mb-6">
               Hi, I'm Amna. <br />
               <span className="text-[var(--color-primary)] opacity-90">
                 Frontend Developer & UI Designer
@@ -65,7 +66,7 @@ export function Hero() {
               </div>
             </div>
           </div>
-          
+
 
           <div className="relative">
             {/* Hero Image */}
