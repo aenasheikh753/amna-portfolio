@@ -1,20 +1,23 @@
 import type { Metadata } from "next";
-import { Inter, Playfair_Display } from "next/font/google";
+import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({
-  variable: "--font-inter",
+const geistSans = Geist({
+  variable: "--font-geist-sans",
   subsets: ["latin"],
 });
 
-const playfair = Playfair_Display({
-  variable: "--font-playfair",
+const geistMono = Geist_Mono({
+  variable: "--font-geist-mono",
   subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
-  title: "Amna | Frontend Developer",
-  description: "Portfolio of Amna, Frontend Developer",
+  title: "Amna Sheikh | Frontend Developer & UI/UX Designer",
+  description: "Crafting pixel-perfect digital experiences with Next.js, React & Tailwind CSS — Islamabad, Pakistan",
+  icons: {
+    icon: "/next.svg",
+  },
 };
 
 export default function RootLayout({
@@ -25,9 +28,9 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${inter.variable} ${playfair.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-texture">{children}</body>
+      <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );
 }
