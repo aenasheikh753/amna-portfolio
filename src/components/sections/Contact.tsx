@@ -47,29 +47,29 @@ export function Contact() {
               </div>
               
               <div className="flex items-center gap-4">
-                <div className="w-12 h-12 bg-[var(--color-primary)]/10 rounded-full flex items-center justify-center text-xl text-[var(--color-primary)]">
+                <div className="w-12 h-12 bg-[var(--color-primary)]/10 rounded-full flex items-center justify-center text-xl text-[var(--color-primary)] hover:bg-[var(--color-primary)] hover:text-white transition-all duration-300">
                   📍
                 </div>
                 <div>
                   <p className="text-sm text-[var(--color-text-light)] font-medium">Location</p>
                   <p className="text-lg font-semibold text-[var(--color-primary)]">
-                    Pakistan
+                    Islamabad, Pakistan
                   </p>
                 </div>
               </div>
             </div>
             
             <div className="flex gap-4 mt-12">
-              <a href="#" className="w-10 h-10 border border-[var(--color-primary)]/20 rounded-full flex items-center justify-center text-[var(--color-primary)] hover:bg-[var(--color-primary)] hover:text-white transition-all">
+              <a href="#" className="w-12 h-12 border border-[var(--color-primary)]/20 rounded-full flex items-center justify-center text-[var(--color-primary)] hover:bg-[var(--color-primary)] hover:text-white transition-all duration-300 hover:scale-110 shadow-sm">
                 in
               </a>
-              <a href="#" className="w-10 h-10 border border-[var(--color-primary)]/20 rounded-full flex items-center justify-center text-[var(--color-primary)] hover:bg-[var(--color-primary)] hover:text-white transition-all">
+              <a href="#" className="w-12 h-12 border border-[var(--color-primary)]/20 rounded-full flex items-center justify-center text-[var(--color-primary)] hover:bg-[var(--color-primary)] hover:text-white transition-all duration-300 hover:scale-110 shadow-sm">
                 GH
               </a>
             </div>
           </div>
           
-          <div className="bg-[var(--color-card)] p-8 md:p-10 rounded-3xl shadow-lg border border-[var(--color-primary)]/10 relative overflow-hidden">
+          <div className="bg-[var(--color-card)]/90 backdrop-blur-sm p-8 md:p-10 rounded-3xl shadow-xl border border-[var(--color-primary)]/10 relative overflow-hidden group">
             <h3 className="text-2xl font-bold font-serif mb-6 text-[var(--color-primary)]">Send a Message</h3>
             
             {success ? (
@@ -81,21 +81,21 @@ export function Contact() {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
                     <label className="block text-sm font-medium text-[var(--color-text-light)] mb-2">Name</label>
-                    <input type="text" name="name" required placeholder="John Doe" className="w-full px-4 py-3 bg-white rounded-xl border border-[var(--color-primary)]/10 focus:border-[var(--color-primary)]/50 focus:ring-0 outline-none transition-colors" />
+                    <input type="text" name="name" required placeholder="John Doe" className="w-full px-4 py-3 bg-white rounded-xl border border-[var(--color-primary)]/10 focus:border-[var(--color-primary)]/50 focus:ring-2 focus:ring-[var(--color-primary)]/20 outline-none transition-all shadow-sm" />
                   </div>
                   <div>
                     <label className="block text-sm font-medium text-[var(--color-text-light)] mb-2">Email</label>
-                    <input type="email" name="email" required placeholder="john@example.com" className="w-full px-4 py-3 bg-white rounded-xl border border-[var(--color-primary)]/10 focus:border-[var(--color-primary)]/50 focus:ring-0 outline-none transition-colors" />
+                    <input type="email" name="email" required placeholder="john@example.com" className="w-full px-4 py-3 bg-white rounded-xl border border-[var(--color-primary)]/10 focus:border-[var(--color-primary)]/50 focus:ring-2 focus:ring-[var(--color-primary)]/20 outline-none transition-all shadow-sm" />
                   </div>
                 </div>
                 
                 <div>
-                  <label className="block text-sm font-medium text-[var(--color-text-light)] mb-2">Project Type</label>
-                  <select name="projectType" required className="w-full px-4 py-3 bg-white rounded-xl border border-[var(--color-primary)]/10 focus:border-[var(--color-primary)]/50 focus:ring-0 outline-none transition-colors text-[var(--color-text)]">
-                    <option value="">Select Project Type</option>
-                    <option value="web">Web Development</option>
-                    <option value="design">UI/UX Design</option>
-                    <option value="ecommerce">eCommerce</option>
+                  <label className="block text-sm font-medium text-[var(--color-text-light)] mb-2">Service Required</label>
+                  <select name="projectType" required className="w-full px-4 py-3 bg-white rounded-xl border border-[var(--color-primary)]/10 focus:border-[var(--color-primary)]/50 focus:ring-2 focus:ring-[var(--color-primary)]/20 outline-none transition-all shadow-sm text-[var(--color-text)] cursor-pointer">
+                    <option value="">Select a Service</option>
+                    <option value="frontend">Frontend Development</option>
+                    <option value="uiux">UI/UX Design</option>
+                    <option value="wordpress">WordPress Development</option>
                     <option value="other">Other</option>
                   </select>
                 </div>

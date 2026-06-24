@@ -26,7 +26,7 @@ const projectsList = [
 
 export function Projects() {
   return (
-    <section id="projects" className="py-24 relative overflow-hidden">
+    <section id="projects" className="py-24 relative overflow-hidden" data-aos="fade-up">
       {/* Watercolor Background */}
       <div className="absolute inset-0 z-0">
         <Image src="/images/leaves2.png" alt="Watercolor Background" fill className="object-cover opacity-30" />
