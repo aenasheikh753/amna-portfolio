@@ -31,7 +31,7 @@ export function Hero() {
             </p>
             <div className="flex flex-wrap gap-4 mb-16" data-aos="fade-up" data-aos-delay="500">
               <Button>Hire Me Now</Button>
-              <Button variant="outline">Resume Download</Button>
+              <a href="/Amna%20Yasin%20-%20Frontend%20web%20developer(Next.js).pdf" download className="inline-block"><Button variant="outline">Resume Download</Button></a>
             </div>
 
             <div className="grid grid-cols-3 gap-8 border-t border-[var(--color-primary)]/20 pt-8" data-aos="fade-up" data-aos-delay="600">

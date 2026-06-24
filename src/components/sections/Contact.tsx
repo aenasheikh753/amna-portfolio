@@ -52,7 +52,7 @@ export function Contact() {
         <a href="https://github.com/aenasheikh753" target="_blank" rel="noopener noreferrer" className="text-lg font-semibold text-[var(--color-primary)] hover:text-[var(--color-secondary)] transition-colors">aenasheikh753</a>
       </div>
       <div className="mt-6">
-        <a href="/resume.pdf" download className="inline-block bg-[var(--color-primary)] text-white py-2 px-6 rounded-full hover:bg-[var(--color-secondary)] transition-colors">Download CV</a>
+        <a href="/Amna%20Yasin%20-%20Frontend%20web%20developer(Next.js).pdf" download className="inline-block bg-[var(--color-primary)] text-white py-2 px-6 rounded-full hover:bg-[var(--color-secondary)] transition-colors">Download CV</a>
       </div>
             </div>
             
