@@ -26,7 +26,7 @@ const wordpressProjects = [
 
 export function WordpressProjects() {
   return (
-    <section id="wordpress-projects" className="py-24 relative overflow-hidden bg-[var(--color-primary)] text-white" data-aos="fade-up">
+    <section id="wordpress-projects" className="py-16 md:py-24 relative overflow-hidden bg-[var(--color-primary)] text-white" data-aos="fade-up">
       {/* Decorative Background Elements */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-[var(--color-secondary)]/20 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3"></div>
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-[var(--color-accent)]/10 rounded-full blur-3xl translate-y-1/3 -translate-x-1/3"></div>

@@ -33,7 +33,7 @@ export function Services() {
   ];
 
   return (
-    <section id="services" className="py-24 relative overflow-hidden bg-texture" data-aos="fade-up">
+    <section id="services" className="py-16 md:py-24 relative overflow-hidden bg-texture" data-aos="fade-up">
       <div className="absolute inset-0 bg-[var(--color-background)] opacity-90"></div>
       
       <div className="container mx-auto px-6 max-w-6xl relative z-10">

@@ -20,9 +20,9 @@ export function Contact() {
   }
 
   return (
-    <section id="contact" className="py-24 relative">
+    <section id="contact" className="py-16 md:py-24 relative">
       <div className="container mx-auto px-6 max-w-6xl">
-        <div className="grid md:grid-cols-2 gap-16 items-start">
+        <div className="grid md:grid-cols-2 gap-10 md:gap-16 items-start">
           
           <div>
             <h2 className="text-4xl md:text-6xl font-bold font-serif mb-6 text-[var(--color-primary)] leading-tight">

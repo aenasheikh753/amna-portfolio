@@ -6,41 +6,41 @@ const projectsList = [
     category: 'Frontend | Web App',
     description: 'A cutting-edge web application built with React and Tailwind CSS, focusing on seamless user experience and performance optimization.',
     link: '#',
-    image: '/images/featured-work-bg.jfif',
+    image: '/images/scoova-project.png',
   },
   {
     title: 'Street10',
     category: 'Frontend | E-commerce',
     description: 'A modern e-commerce frontend interface delivering lightning-fast page loads and an intuitive shopping journey.',
     link: '#',
-    image: '/images/bdf7de70-3f70-48a5-8904-322b1aff5d49.jfif',
+    image: '/images/stree10-project.png',
   },
   {
     title: 'Tabeer',
     category: 'Frontend | Platform',
     description: 'An interactive platform built with Next.js, featuring dynamic content rendering and robust state management.',
     link: '#',
-    image: '/images/featured-work-bg.jfif',
+    image: '/images/tabeer-project.png',
   },
   {
     title: 'Potolo',
     category: 'Frontend | Dashboard',
     description: 'A complex data visualization dashboard with real-time updates and an accessible, responsive layout.',
     link: '#',
-    image: '/images/bdf7de70-3f70-48a5-8904-322b1aff5d49.jfif',
+    image: '/images/potolo-project.png',
   },
   {
     title: 'Barwaaqo Agri Group',
     category: 'Frontend | Corporate Site',
     description: 'A premium corporate website highlighting agricultural services with smooth animations and dynamic routing.',
     link: '#',
-    image: '/images/featured-work-bg.jfif',
+    image: '/images/barwaqo-project.png',
   }
 ];
 
 export function FrontendProjects() {
   return (
-    <section id="frontend-projects" className="py-24 relative overflow-hidden bg-[var(--color-card)]/50" data-aos="fade-up">
+    <section id="frontend-projects" className="py-16 md:py-24 relative overflow-hidden bg-[var(--color-card)]/50" data-aos="fade-up">
       {/* Background */}
       <div className="absolute inset-0 z-0">
         <Image src="/images/leaves2.png" alt="Watercolor Background" fill className="object-cover opacity-20" />

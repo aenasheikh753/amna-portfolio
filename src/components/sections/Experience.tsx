@@ -23,9 +23,9 @@ const experienceList = [
 
 export function Experience() {
   return (
-    <section id="experience" className="py-24 relative overflow-hidden" data-aos="fade-up">
+    <section id="experience" className="py-16 md:py-24 relative overflow-hidden" data-aos="fade-up">
       <div className="container mx-auto px-6 max-w-6xl">
-        <div className="grid md:grid-cols-2 gap-16 items-center">
+        <div className="grid md:grid-cols-2 gap-10 md:gap-16 items-center">
           
           <div>
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[var(--color-primary)]/5 text-[var(--color-primary)] font-medium text-sm mb-6">

@@ -14,9 +14,9 @@ export function Achievements() {
           <div className="absolute top-0 left-0 w-64 h-64 bg-white/5 rounded-full blur-3xl -translate-y-1/2 -translate-x-1/2"></div>
           <div className="absolute bottom-0 right-0 w-64 h-64 bg-[var(--color-accent)]/20 rounded-full blur-3xl translate-y-1/2 translate-x-1/2"></div>
 
-          <div className="relative z-10 grid grid-cols-2 md:grid-cols-4 gap-8 divide-y md:divide-y-0 md:divide-x divide-white/10">
+          <div className="relative z-10 grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-4 md:divide-x divide-white/10">
             {stats.map((stat, index) => (
-              <div key={index} className="text-center pt-8 md:pt-0 first:pt-0 flex flex-col items-center justify-center">
+              <div key={index} className="text-center flex flex-col items-center justify-center">
                 <div className="text-3xl mb-3 opacity-80">{stat.icon}</div>
                 <div className="text-4xl md:text-5xl font-bold font-serif text-white mb-2">{stat.value}</div>
                 <div className="text-sm font-medium text-[var(--color-secondary)] uppercase tracking-wider">{stat.label}</div>

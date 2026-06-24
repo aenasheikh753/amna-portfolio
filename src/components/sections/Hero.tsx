@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/Button";
 
 export function Hero() {
   return (
-    <section id="home" className="relative pt-32 pb-20 overflow-hidden min-h-screen flex items-center" data-aos="fade-in">
+    <section id="home" className="relative pt-28 md:pt-32 pb-16 md:pb-20 overflow-hidden min-h-screen flex items-center" data-aos="fade-in">
       {/* Background Image */}
       <div className="fixed inset-0 -z-10">
         <Image
@@ -17,7 +17,7 @@ export function Hero() {
       </div>
 
       <div className="container mx-auto px-6 max-w-6xl relative z-10">
-        <div className="grid md:grid-cols-2 gap-12 items-center">
+        <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
           <div className="max-w-xl">
             <h1 className="text-3xl md:text-5xl font-bold font-serif leading-tight mb-4" data-aos="fade-down" data-aos-delay="200">
               Hi, I'm Amna Sheikh. <br />
@@ -68,12 +68,17 @@ export function Hero() {
             {/* Hero Image */}
             <div className="relative z-10 flex justify-end">
               <Image
-                src="/images/hero-right.png"
+                src="/images/hero-right.png?v=2"
                 alt="Amna Sheikh Illustration"
                 width={600}
                 height={600}
                 className="w-full max-w-lg object-contain drop-shadow-2xl"
+                style={{
+                  WebkitMaskImage: 'radial-gradient(circle at center, black 60%, transparent 95%)',
+                  maskImage: 'radial-gradient(circle at center, black 60%, transparent 95%)'
+                }}
                 priority
+                unoptimized={true}
               />
             </div>
             

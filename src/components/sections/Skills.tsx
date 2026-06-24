@@ -25,7 +25,7 @@ const skillCategories = [
 
 export function Skills() {
   return (
-    <section id="skills" className="py-24 relative overflow-hidden" data-aos="zoom-in">
+    <section id="skills" className="py-16 md:py-24 relative overflow-hidden" data-aos="zoom-in">
       {/* Background */}
       <div className="absolute inset-0 z-0">
         <Image src="/images/skills-bg.png" alt="Skills Background" fill className="object-cover opacity-60" />

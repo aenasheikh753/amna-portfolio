@@ -2,12 +2,12 @@ import Image from 'next/image';
 
 export function About() {
   return (
-    <section id="about" className="py-24 relative overflow-hidden" data-aos="fade-up">
+    <section id="about" className="py-16 md:py-24 relative overflow-hidden" data-aos="fade-up">
       {/* Background Texture */}
       <div className="absolute inset-0 bg-texture opacity-20 pointer-events-none"></div>
       
       <div className="container mx-auto px-6 max-w-6xl relative z-10">
-        <div className="grid md:grid-cols-2 gap-16 items-center">
+        <div className="grid md:grid-cols-2 gap-10 md:gap-16 items-center">
           <div className="relative order-2 md:order-1 flex justify-center">
             {/* About Image */}
             <div className="relative aspect-[4/5] w-full max-w-md rounded-2xl shadow-xl overflow-hidden border-4 border-[var(--color-background)]">
@@ -52,7 +52,7 @@ export function About() {
               </p>
             </div>
             
-            <div className="mt-8 flex gap-4">
+            <div className="mt-8 flex flex-col sm:flex-row gap-4">
               <div className="bg-[var(--color-card)] p-4 rounded-xl border border-[var(--color-primary)]/10 shadow-sm flex-1 text-center">
                 <span className="block text-2xl mb-1">🎨</span>
                 <span className="font-semibold text-[var(--color-primary)] block">UI/UX</span>

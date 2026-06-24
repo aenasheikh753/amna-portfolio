@@ -29,7 +29,7 @@ const designProjects = [
 
 export function UiUxProjects() {
   return (
-    <section id="uiux-projects" className="py-24 relative overflow-hidden" data-aos="fade-up">
+    <section id="uiux-projects" className="py-16 md:py-24 relative overflow-hidden" data-aos="fade-up">
       <div className="container mx-auto px-6 max-w-6xl relative z-10">
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[var(--color-primary)]/5 text-[var(--color-primary)] font-medium text-sm mb-6 mx-auto">
