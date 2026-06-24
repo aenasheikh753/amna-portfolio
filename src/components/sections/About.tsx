@@ -42,13 +42,10 @@ export function About() {
             
             <div className="space-y-4 text-lg text-[var(--color-text-light)] leading-relaxed">
               <p>
-                I am a multidisciplinary professional with <strong>3.5+ years of combined experience</strong> in Frontend Development, UI/UX Design, and WordPress Elementor. My journey started with a deep passion for user-centered design and evolved into crafting robust, production-ready web applications.
+                I am a multidisciplinary professional with <strong>3.5+ years of combined experience</strong> across Frontend Development, UI/UX Design, and WordPress Elementor. Blending a strong <strong>UI/UX design background</strong> with robust engineering, I don't just write code—I ensure every pixel aligns with modern aesthetics and user psychology.
               </p>
               <p>
-                With a strong <strong>UI/UX Design background</strong>, I don't just write code—I ensure every pixel aligns with human psychology and modern aesthetic standards. I specialize in the complete <strong>Design-to-Code workflow</strong>, seamlessly translating intricate Figma prototypes into scalable, high-performance web experiences using React, Next.js, and Tailwind CSS.
-              </p>
-              <p>
-                Additionally, my hands-on experience with <strong>WordPress Elementor</strong> allows me to deliver flexible, rapid, and highly customizable CMS solutions for businesses of all sizes. Whether it's a completely custom web app or a beautifully themed WordPress site, I am dedicated to delivering excellence from <strong>Figma to Production</strong>.
+                My expertise lies in the complete <strong>Design-to-Code workflow</strong>. From translating intricate prototypes into high-performance web apps using React, Next.js, and Tailwind CSS, to delivering flexible CMS solutions via <strong>WordPress</strong>, I am dedicated to excellence from <strong>Figma to Production</strong>.
               </p>
             </div>
             
