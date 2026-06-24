@@ -4,8 +4,8 @@ import { About } from '@/components/sections/About';
 import { Experience } from '@/components/sections/Experience';
 import { Skills } from '@/components/sections/Skills';
 import { FrontendProjects } from '@/components/sections/FrontendProjects';
-import { UiUxProjects } from '@/components/sections/UiUxProjects';
-import { WordpressProjects } from '@/components/sections/WordpressProjects';
+// // import { UiUxProjects } from '@/components/sections/UiUxProjects';
+// // import { WordpressProjects } from '@/components/sections/WordpressProjects';
 import { Services } from '@/components/sections/Services';
 import { Achievements } from '@/components/sections/Achievements';
 import { Contact } from '@/components/sections/Contact';
@@ -21,13 +21,14 @@ export default function Home() {
         <Experience />
         <Skills />
         <FrontendProjects />
-        <UiUxProjects />
-        <WordpressProjects />
+        {/* <UiUxProjects /> */}
+        {/* <WordpressProjects /> */}
         <Services />
         <Achievements />
         <Contact />
+        <Footer />
       </main>
-      <Footer />
+
     </>
   );
 }
