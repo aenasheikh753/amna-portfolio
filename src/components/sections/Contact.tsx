@@ -35,28 +35,25 @@ export function Contact() {
             
             <div className="space-y-6">
               <div className="flex items-center gap-4">
-                <div className="w-12 h-12 bg-[var(--color-primary)]/10 rounded-full flex items-center justify-center text-xl text-[var(--color-primary)]">
-                  ✉️
-                </div>
-                <div>
-                  <p className="text-sm text-[var(--color-text-light)] font-medium">Email</p>
-                  <a href="mailto:hello@amna.dev" className="text-lg font-semibold text-[var(--color-primary)] hover:text-[var(--color-secondary)] transition-colors">
-                    hello@amna.dev
-                  </a>
-                </div>
-              </div>
-              
-              <div className="flex items-center gap-4">
-                <div className="w-12 h-12 bg-[var(--color-primary)]/10 rounded-full flex items-center justify-center text-xl text-[var(--color-primary)] hover:bg-[var(--color-primary)] hover:text-white transition-all duration-300">
-                  📍
-                </div>
-                <div>
-                  <p className="text-sm text-[var(--color-text-light)] font-medium">Location</p>
-                  <p className="text-lg font-semibold text-[var(--color-primary)]">
-                    Islamabad, Pakistan
-                  </p>
-                </div>
-              </div>
+        <div className="w-12 h-12 bg-[var(--color-primary)]/10 rounded-full flex items-center justify-center text-xl text-[var(--color-primary)]">
+          ✉️
+        </div>
+        <div>
+          <p className="text-sm text-[var(--color-text-light)] font-medium">Email</p>
+          <a href="mailto:amnaaena12@gmail.com" className="text-lg font-semibold text-[var(--color-primary)] hover:text-[var(--color-secondary)] transition-colors">amnaaena12@gmail.com</a>
+        </div>
+      </div>
+      <div className="flex items-center gap-4 mt-4">
+        <span className="text-sm text-[var(--color-text-light)] font-medium">LinkedIn</span>
+        <a href="https://www.linkedin.com/in/amna-sheikhh12/" target="_blank" rel="noopener noreferrer" className="text-lg font-semibold text-[var(--color-primary)] hover:text-[var(--color-secondary)] transition-colors">/in/amna-sheikhh12</a>
+      </div>
+      <div className="flex items-center gap-4 mt-4">
+        <span className="text-sm text-[var(--color-text-light)] font-medium">GitHub</span>
+        <a href="https://github.com/aenasheikh753" target="_blank" rel="noopener noreferrer" className="text-lg font-semibold text-[var(--color-primary)] hover:text-[var(--color-secondary)] transition-colors">aenasheikh753</a>
+      </div>
+      <div className="mt-6">
+        <a href="/resume.pdf" download className="inline-block bg-[var(--color-primary)] text-white py-2 px-6 rounded-full hover:bg-[var(--color-secondary)] transition-colors">Download CV</a>
+      </div>
             </div>
             
             <div className="flex gap-4 mt-12">

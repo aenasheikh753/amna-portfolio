@@ -46,7 +46,7 @@ export function Hero() {
 
               <div>
                 <h3 className="text-3xl font-bold font-serif text-[var(--color-primary)] mb-1">
-                  20+
+                  10+
                 </h3>
                 <p className="text-sm text-[var(--color-text-light)] font-medium">
                   Projects Delivered
@@ -55,7 +55,7 @@ export function Hero() {
 
               <div>
                 <h3 className="text-3xl font-bold font-serif text-[var(--color-primary)] mb-1">
-                  10+
+                  5+
                 </h3>
                 <p className="text-sm text-[var(--color-text-light)] font-medium">
                   Happy Clients
@@ -81,7 +81,7 @@ export function Hero() {
                 unoptimized={true}
               />
             </div>
-            
+
             {/* Decorative Elements */}
             <div className="absolute top-10 right-10 w-20 h-20 bg-[var(--color-accent)]/20 rounded-full blur-2xl z-0"></div>
             <div className="absolute bottom-10 left-10 w-32 h-32 bg-[var(--color-secondary)]/20 rounded-full blur-3xl z-0"></div>

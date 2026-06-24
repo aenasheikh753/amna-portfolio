@@ -5,36 +5,43 @@ const projectsList = [
     title: 'Scoova',
     category: 'Frontend | Web App',
     description: 'A cutting-edge web application built with React and Tailwind CSS, focusing on seamless user experience and performance optimization.',
-    link: '#',
+    link: 'https://scoova-website-latest.vercel.app',
     image: '/images/scoova-project.png',
   },
   {
     title: 'Street10',
     category: 'Frontend | E-commerce',
     description: 'A modern e-commerce frontend interface delivering lightning-fast page loads and an intuitive shopping journey.',
-    link: '#',
+    link: 'https://street10.vercel.app/',
     image: '/images/stree10-project.png',
   },
   {
     title: 'Tabeer',
     category: 'Frontend | Platform',
     description: 'An interactive platform built with Next.js, featuring dynamic content rendering and robust state management.',
-    link: '#',
+    link: 'https://tabeeer-fr.vercel.app/',
     image: '/images/tabeer-project.png',
   },
   {
     title: 'Potolo',
     category: 'Frontend | Dashboard',
     description: 'A complex data visualization dashboard with real-time updates and an accessible, responsive layout.',
-    link: '#',
+    link: 'https://potolo.com/',
     image: '/images/potolo-project.png',
   },
   {
     title: 'Barwaaqo Agri Group',
     category: 'Frontend | Corporate Site',
     description: 'A premium corporate website highlighting agricultural services with smooth animations and dynamic routing.',
-    link: '#',
+    link: 'https://barwaqo-new.vercel.app/',
     image: '/images/barwaqo-project.png',
+  },
+  {
+    title: 'Barwaaqo Admin Panel',
+    category: 'Frontend | Admin Dashboard',
+    description: 'Admin interface for managing Barwaaqo agricultural platform, featuring data visualization and robust content control.',
+    link: 'https://barwaqo-new.vercel.app/admin',
+    image: '/images/barwaqoo-admin.png',
   }
 ];
 
