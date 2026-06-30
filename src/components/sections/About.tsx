@@ -15,6 +15,7 @@ export function About() {
                 src="/images/about-img.jfif" 
                 alt="Amna Sheikh" 
                 fill 
+                unoptimized
                 className="object-cover hover:scale-105 transition-transform duration-700" 
               />
             </div>
