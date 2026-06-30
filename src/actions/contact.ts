@@ -1,16 +1,45 @@
 'use server';
 
+/**
+ * Send contact form data via Resend email service.
+ * Requires RESEND_API_KEY environment variable.
+ */
 export async function submitContactForm(formData: FormData) {
-  const name = formData.get('name');
-  const email = formData.get('email');
-  const projectType = formData.get('projectType');
-  const message = formData.get('message');
+  const name = formData.get('name') as string;
+  const email = formData.get('email') as string;
+  const projectType = formData.get('projectType') as string;
+  const message = formData.get('message') as string;
 
-  // Here you would typically save to a database or send an email.
-  console.log('Received contact submission:', { name, email, projectType, message });
+  const emailBody = `
+    Name: ${name}\n
+    Email: ${email}\n
+    Service: ${projectType}\n
+    Message:\n${message}\n`;
 
-  // Simulating network delay
-  await new Promise((resolve) => setTimeout(resolve, 1000));
+  try {
+    const response = await fetch('https://api.resend.com/emails', {
+      method: 'POST',
+      headers: {
+        Authorization: `Bearer ${process.env.RESEND_API_KEY}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        from: 'Acme <no-reply@resend.dev>',
+        to: 'amnaaena12@gmail.com',
+        subject: 'New Contact Form Submission',
+        text: emailBody,
+      }),
+    });
 
-  return { success: true, message: 'Message sent successfully!' };
+    if (!response.ok) {
+      const err = await response.text();
+      console.error('Resend error:', err);
+      return { success: false, message: 'Failed to send email.' };
+    }
+
+    return { success: true, message: 'Message sent successfully!' };
+  } catch (e) {
+    console.error('Contact submission error:', e);
+    return { success: false, message: 'Unexpected error occurred.' };
+  }
 }
